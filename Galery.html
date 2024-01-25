@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Basic Abstract Images Galery</title>
+    <style>
+        .image-container {
+            position: relative;
+            display: inline-block;
+            margin: 15px;
+        }
+        img {
+            inline-size: 350px;
+            block-size: 350px;
+            border: outset;
+            border-color: rgb(29, 203, 197);
+            border-width:20px;
+        }
+        .withborder {
+           border-radius: 500px
+        }
+        .image-description {
+            position: absolute;
+            width: 100%;
+            background-color: transparent;
+            text-align: center;
+        }
+    </style>
+</head>
+<body style="background-color: darkcyan">
+    <h1 style="font-family: 'Adobe Devanagari'; font-weight: 800; font-size: 50px; text-align: center;">Abstract Galery</h1>
+    
+    <div class="image-container" style="left:23%">
+    <div class="image-container">
+        <img src="IG1.png" alt="Cristalized Materials" />
+        <div class="image-description">
+            Cristalized Materials<br />
+            Made in Madagascar - 1993
+        </div>
+    </div>
+
+    <div class="image-container">
+        <img src="IG2.png" alt="The ocean in a ocean sky" />
+        <div class="image-description">
+            The ocean in a ocean sky<br />
+            Made in Polonia - 2005
+        </div>
+    </div>
+
+          </div>
+    <div class="image-container" style="left:23%; top:50%">
+
+    <div class="image-container">
+        <img class="withborder" src="IG3.png" alt="Stairs towards dreams" />
+        <div class="image-description">
+            Stairs towards dreams<br />
+            Made in Germany - 1997
+        </div>
+    </div>
+        
+    <div class="image-container">
+        <img class="withborder"src="IG4.png" alt="Block Grafiti" />
+        <div class="image-description">
+            Block Grafiti<br />
+            Made in Brazil - 1980
+        </div>
+    </div>
+        </div>
+    <div class="image-container" style="left:23%; top:100%">
+    <div class="image-container">
+        <img src="IG5.png" alt="The Nowadays Iceberg" />
+        <div class="image-description">
+            The Nowadays Iceberg<br />
+            Made in Indonesia - 1999
+        </div>
+    </div>
+
+    <div class="image-container">
+        <img src="IG6.png" alt="A rainbow in an hearty day" />
+        <div class="image-description">
+            A rainbow in an hearty day<br />
+            Made in México - 2012
+        </div>
+    </div>
+        </div>
+</body>
+</html>
